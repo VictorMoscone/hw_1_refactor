@@ -1,36 +1,48 @@
-/* Website reset. */
 * {
+    /* Website reset. */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
-/* Colors the backdrop of the entire site. */
+a {
+    /* Styles the anchors. */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    /* Default font size for all paragraphical text. */
+    font-size: 16px;
+}
+
 body {
+    /* Colors the backdrop of the entire site. */
     background-color: #d9dcd6;
 }
 
-/* Formats the header text found in the top of the page. */
 header {
+    /* Formats the header text found in the top of the page. */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/* Formats the company name found at the top left of the page. */
 header h1 {
+    /* Formats the company name found at the top left of the page. */
     display: inline-block;
     font-size: 48px;
 }
 
-/* Minor span formating in the company name at the top left of the page. */
 header h1 .seo {
+    /* Minor span formating in the company name at the top left of the page. */
     color: #d9dcd6;
 }
 
-/* Formats the navigation links at the top right of the page. */
 header nav {
+    /* Formats the navigation links at the top right of the page. */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,25 +50,14 @@ header nav {
     font-size: 20px;
 }
 
-/* Formats the navigation links to be side-by-side. */
 header nav ul li {
+    /* Formats the navigation links to be side-by-side. */
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Styles the anchors. */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* Default font size for all paragraphical text. */
-p {
-    font-size: 16px;
-}
-
-/* This is the big stock photo display at the top of the site. */
 .hero {
+    /* This is the big stock photo display at the top of the site. */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -65,15 +66,15 @@ p {
     background-position: center;
 }
 
-/* Contains all of the sections in the bottom left area and provides some basic parameters. */
 .content {
+    /* Contains all of the sections in the bottom left area and provides some basic parameters. */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Creates the SEO content section box. */
 .search-engine-optimization {
+    /* Creates the SEO content section box. */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -82,21 +83,21 @@ p {
     color: #ffffff;
 }
 
-/* Defines the SEO image, floating next to the text. */
 .search-engine-optimization img {
+    /* Defines the SEO image, floating next to the text. */
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
-/* SEO Header Text. */
 .search-engine-optimization h2 {
+    /* SEO Header Text. */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Creates the ORM content section box. */
 .online-reputation-management {
+    /* Creates the ORM content section box. */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -105,21 +106,21 @@ p {
     color: #ffffff;
 }
 
-/* Defines the ORM image, floating next to the text. */
 .online-reputation-management img {
+    /* Defines the ORM image, floating next to the text. */
     max-height: 200px;
     float: right;
     margin-left: 25px;
 }
 
-/* ORM Header Text. */
 .online-reputation-management h2 {
+    /* ORM Header Text. */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Creates the SMM content section box. */
 .social-media-marketing {
+    /* Creates the SMM content section box. */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -128,21 +129,21 @@ p {
     color: #ffffff;
 }
 
-/* Defines the SMM image, floating next to the text. */
 .social-media-marketing img {
+    /* Defines the SMM image, floating next to the text. */
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
-/* SMM Header Text. */
 .social-media-marketing h2 {
+    /* SMM Header Text. */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Contains all of the asides on the bottom right side of the site. */
 .benefits {
+    /* Contains all of the asides on the bottom right side of the site. */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -153,72 +154,72 @@ p {
     background-color: #2589bd;
 }
 
-/* Formats all Lead Generation text. */
 .benefit-lead {
+    /* Formats all Lead Generation text. */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Formats the Lead Generation header. */
 .benefit-lead h3 {
+    /* Formats the Lead Generation header. */
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Formats the Lead Generation icon. */
 .benefit-lead img {
+    /* Formats the Lead Generation icon. */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Formats all Brand Awareness text. */
 .benefit-brand {
+    /* Formats all Brand Awareness text. */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Formats the Brand Awareness header. */
 .benefit-brand h3 {
+    /* Formats the Brand Awareness header. */
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Formats the Brand Awareness icon. */
 .benefit-brand img {
+    /* Formats the Brand Awareness icon. */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Formats all Cost Management text. */
 .benefit-cost {
+    /* Formats all Cost Management text. */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Formats the Cost Management header. */
 .benefit-cost h3 {
+    /* Formats the Cost Management header. */
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Formats the Cost Management icon. */
 .benefit-cost img {
+    /* Formats the Cost Management icon. */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Styles and formats for our footer. */
 footer {
+    /* Styles and formats for our footer. */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-/* Slightly reduces the size of the footer's header text. */
 footer h2 {
+    /* Slightly reduces the size of the footer's header text. */
     font-size: 20px;
 }
